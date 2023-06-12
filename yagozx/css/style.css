@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color: #111111;
+    overflow-x: hidden;
+
+}
+
+#color {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 736px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff8d8d+0,111111+54,111111+100 */
+    background: #ff8d8d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff8d8d 0%, #111111 54%, #111111 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ff8d8d 0%,#111111 54%,#111111 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff8d8d 0%,#111111 54%,#111111 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d8d', endColorstr='#111111',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+p {
+    color: #eee;
+}
+
+a {
+    color: #eee;
+}
+
+.vd-seta img {
+    position: relative;
+    top: 55px;
+    left: 31px;
+}
+
+#vd-capa img{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+}
+
+
+
+.vd-titulo p {
+    color: #eee;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 25px;
+}
+.vd-user {
+    margin-top: 22px;
+}
+
+.vd-user img {
+    position: relative;
+    margin-left: 36px;
+    border-radius: 100%;
+    float: left;
+}
+
+.vd-user p {
+    position: relative;
+    color: #eee;
+    font-size: 8px;
+    top: 2px;
+    margin-left: 60px;
+}
+
+.vd-kokoro img {
+    position: relative;
+    height: 18,75px;
+    width: 18,13px;
+    top: 7px;
+    float: left;
+}
+
+.vd-kokoro p {
+    position: relative;
+    color: #979797;
+    font-size: 10px;
+    top: 10px;
+    left: 11px;
+}
+
+.vd-kokoro a {
+    color: #eee;
+    font-size: 10px;
+}
+
+.vd-play img {
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+    margin-right: 52px;
+}
+
+/* DIV PARA MUSICAS IMPORTADA */
+
+#musicas {
+    height: auto;
+    z-index: 100;
+    width: auto;
+    position: absolute;
+    margin-left: 20px;
+    top: 430px;
+}
+
+.musicaimg {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+}
+
+.musicaimg2 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: -9px;
+}
+
+.musicaimg3 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: -28px;
+}
+
+.musicaimg4 {
+    position: relative;
+    top: -47px;
+    width: 45px;
+    height: 45px;
+}
+
+.musicname {
+    font-size: 11px;
+}
+
+.names .nameauthor {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
+}
+
+.names {
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+
+.names2 .nameauthor {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
+}
+
+.names2 {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.names3 .nameauthor {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
+}
+
+.names3 {
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+
+.names4 .nameauthor {
+    font-size: 9px;
+    margin-left: 10px;
+    color: #979797;
+}
+
+.names4 {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+
+/* DIV PARA TEXTO */
+
+.vd-text {
+    position: relative;
+    top: 150px;
+    left: 125px;
+    font-size: 10px;
+    color: #eee;
+}
+
+.vd-text .vd-obrigado {
+    position: absolute;
+    z-index: 1;
+    margin-top: 28px;
+    margin-left: 50px;
+}
+
+.vd-text .vd-euteamo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 125px;
+    margin-left: 123px;
+}
+
+/* OCULTAR E MOSTRAR FRASE */
+
+.vd-text .vd-obrigado2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 28px;
+    margin-left: 50px;
+}
+
+.vd-text .vd-euteamo2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 125px;
+    margin-left: 145px;
+}

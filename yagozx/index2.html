@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Valentine's Day</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="color">
+        <div class="vd-seta">
+            <img src="images/icons/vd-flecha.png" alt="voltar">
+        </div>
+
+        <div  onclick="mostrar()"  id="vd-capa">
+            <img src="images/capa.png" alt="Imagem 4x4" width="7" height="4">
+        </div>
+        <div class="vd-titulo">
+            <p>1nd Valentine's Day</p>
+        </div>
+        <div class="vd-user">
+            <img src="images/icons/vd-user.png">
+            <p>MIAU MIAU VC É UMA GATINHA</p>
+        </div>
+        <div class="vd-kokoro">
+            <img src="images/icons/vd-coração.png" alt="coração">
+            <p>São <a href="#">196</a> dias juntos cuxu</p>
+        </div>
+        <div class="vd-play" onclick="document.getElementById('demoall').play()">
+            <img id="play" src="images/icons/vd-play.png" alt="play">
+        </div>
+        <div id="musicas">
+            <div>
+                <div class="names" >
+                    <p class="musicname" class="namemusic">Daylight</p>
+                    <p  class="nameauthor">  Taylor Swift</p>
+                </div>
+                <img  class="musicaimg" src="images/musics/incredible.png"></button>
+            </div>
+
+            <div>
+                <div class="names2" >
+                    <p class="musicname" class="namemusic">Perfect</p>
+                    <p  class="nameauthor">  Ed Sheeran</p>
+                </div>
+                <img class="musicaimg2" src="images/musics/perfect.png">
+            </div>
+
+            <div>
+                <div class="names3">
+                    <p class="musicname" class="namemusic">The Scientist</p>
+                    <p  class="nameauthor">  Coldplay</p>
+                </div>
+                <img class="musicaimg3" src="images/musics/the-scientist.png">
+            </div>
+
+            <div>
+                <div class="names4">
+                    <p class="musicname" class="namemusic">You & Me</p>
+                    <p  class="nameauthor">  James TW</p>
+                </div>
+                <img class="musicaimg4" src="images/musics/you&me.png">
+            </div>
+        </div>
+        <script>
+            function mostra() {
+                document.getElementById('vd-ma2').style.display = "block";
+                document.getElementById('vd-ma').style.display = "none";
+
+                document.getElementById('vd-maa2').style.display = "block";
+                document.getElementById('vd-maa').style.display = "none";
+            }
+        </script>
+        <script>
+            function ocultar() {
+                document.getElementById('vd-ma').style.display = "block";
+                document.getElementById('vd-ma2').style.display = "none";
+
+                document.getElementById('vd-maa').style.display = "block";
+                document.getElementById('vd-maa2').style.display = "none";
+            }
+        </script>
+        <div class="vd-text">
+            <p onclick="mostra()" id="vd-ma" class="vd-obrigado">Obrigado por estar<br>
+                presente em minha vida,<br>
+                você é incrível, muito<br>
+                obrigado por ser essa<br>
+                pessoa maravilhosa!</p>
+            <p onclick="ocultar()" id="vd-ma2" class="vd-obrigado2">Feliz Dia Dos Namorados<br>
+                Desculpe pelo atraso, hihi,<br>
+                mas é de coração<br>
+                juro!!</p>
+
+            <p onclick="mostra()" id="vd-maa" class="vd-euteamo">EU TE AMO MUITO!!!</p>
+            <p onclick="ocultar()" id="vd-maa2" class="vd-euteamo2">XI AMUUUU!!!</p>
+
+            <img src="images/icons/vd-retangulo-text.png" alt="retangulo-texto">
+        </div>
+        <audio autoplay id="demoall">
+            <source src="musica/Taylor Swift Daylight.mp3">
+                <audio autoplay id="demoall">
+            <source src="musica/the-scientist.mp3">
+                <audio autoplay id="demoall">
+            <source src="musica/you-and-me.mp3">
+                <audio autoplay id="demoall">
+            <source src="musica/you-and-me.mp3">
+            <p>Seu nevegador não suporta o elemento audio.</p>
+        </audio>
+    </div>
+
+</body>
+</html>
